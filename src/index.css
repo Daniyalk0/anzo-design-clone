@@ -1,0 +1,72 @@
+@font-face {
+  font-family: anzo1;
+  src: url(assets/file.woff2);
+  text-transform: capitalize;
+}
+@font-face {
+  font-family: anzo2;
+  src: url(assets/file2.woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(assets/file3.woff2);
+}
+@font-face {
+  font-family: anzo4;
+  src: url(assets/file4.woff2);
+}
+@font-face {
+  font-family: anzo5;
+  src: url(assets/file5.woff2);
+}
+@font-face {
+  font-family: anzo6;
+  src: url(assets/madefor-text.var.original.woff2);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  animation: animateBtn ease 0.4s infinite alternate;
+}
+
+@keyframes animateBtn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+  }
+}
+
+#page-1 {
+  perspective: 1000px;
+}
+
+#tiltDiv {
+  width: fit-content;
+  transform: rotateY(0deg);
+}
+
+#section2 {
+  perspective: 3000px;
+}
+
+.projectImage {
+  perspective: 1000px;
+}
+
+.appwriteGlow {
+  box-shadow: 0 0 3px #fe296d, 0 0 20px #fe296d, 0 0 0px #fe296d; /* Multiple shadows for a stronger glow */
+}
+.reactGlow {
+  box-shadow: 0 0 3px #0cd0ff, 0 0px 18px #00ccff, 0 0 0px #0cd0ff; /* Multiple shadows for a stronger glow */
+}
+.tailwindGlow {
+  box-shadow: 0 0 3px #38bdf8, 0 0 20px #38bdf8, 0 0 0px #38bdf8; /* Multiple shadows for a stronger glow */
+}
+
+
+  
